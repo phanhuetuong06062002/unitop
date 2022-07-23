@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom event</title>
+</head>
+<body>
+    <style>
+        ul{
+            display:none;
+        }
+        input:focus ~ ul {
+            display :block;
+        }
+    </style>
+    <h1 onclick="console.log(this)" >
+        <span onclick="console.log(this)">Dom event</span>
+    </h1>
+    <h2>Thẻ h2</h2>
+    <h2>Thẻ h2</h2>
+    <h2>Thẻ h2</h2>
+    <h2>Thẻ h2</h2>
+    <input type="text" name="" id=""><br><br>
+    <ul>
+       <li><a href ="">PHP</a></li>
+       <li><a href ="">Javascript</a></li>
+       <li><a href ="">Java</a></li>
+    </ul>
+    <input type="password" name="" id=""><br>
+    <input type="checkbox" name=""  id=""><br>
+    <input type="radio" name="" id=""><br>
+    <input type="radio" name="" id=""><br>
+    <select name="" id="">
+        <option value="1">PHP</option>
+        <option value="2">Javascript</option>
+        <option value="3">Java</option>
+    </select><br>
+    <a href="http://unitop.vn">unitop</a>
+    <a href="http://google.vn">Goolge</a><br>
+    <div>
+        Div
+        <button>Click me</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

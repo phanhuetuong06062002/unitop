@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object constructer</title>
+</head>
+<body>
+    <script>
+        function User(firstName,lastName,avatar){
+             this.firstName = firstName;
+             this.lastName = lastName;
+             this.avatar = avatar;
+             this.getName = function(){
+                 return `${this.firstName} ${this.lastName}`;
+             }
+        }
+        var author = new User('Sơn','Đặng', 'avatar 1');
+        var user = new User('Vũ','Nguyễn', 'avatar 2');
+        author['title'] = 'bài học khá hay';
+        user['title'] = 'bài học rất hay';
+        console.log(author);
+        console.log(user);
+
+    </script>
+</body>
+</html>

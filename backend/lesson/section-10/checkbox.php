@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lấy dữ liệu từ checkbox</title>
+</head>
+<body>
+    <?php 
+        if(isset($_POST['rule'])){
+            echo $_POST['rule'];
+        }else{
+            echo "Bạn chưa chọn đồng ý";
+        }
+    ?>
+    <p style="width:400px;height: 100px;overflow-y:scroll"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, adipisci, sed expedita repellendus sequi provident, veniam nostrum impedit sapiente dicta vitae aliquid numquam. Omnis officiis voluptatem nisi ipsa velit, soluta amet ullam fuga cum enim autem accusamus laudantium dolores recusandae veniam harum dolorum. Magni ad, pariatur soluta perferendis reprehenderit excepturi non laboriosam autem necessitatibus eos aspernatur voluptate minima impedit velit nobis, praesentium quibusdam, omnis vitae quaerat nemo! Odit omnis veniam eligendi earum ad consequuntur fugiat modi qui nulla incidunt voluptatibus adipisci deserunt, et suscipit pariatur laboriosam. Aliquid eligendi maiores aliquam dolore alias ducimus, illo harum neque. Alias, eveniet. Architecto, maiores repellendus iste optio, corrupti autem ab alias assumenda quasi, dignissimos voluptates unde. Explicabo molestiae sed, distinctio suscipit totam necessitatibus optio cumque, beatae dignissimos alias pariatur ex eos. Debitis, voluptatem fuga, voluptas veniam doloremque exercitationem ducimus nam eum excepturi ea ipsam dignissimos ad, fugiat consectetur officiis minus eaque molestias quasi perspiciatis enim consequuntur ut quidem adipisci quas. Cumque ipsa officiis nemo ratione sit, mollitia eum numquam quidem! Eaque totam mollitia quis, illum assumenda est id vitae architecto facilis dignissimos eius cum ex rem exercitationem beatae autem fugit obcaecati, temporibus iste culpa placeat! Iusto, eius ut sint nostrum, temporibus vel nulla doloremque corrupti tempore sit animi? Fugit ducimus totam quasi, rerum reiciendis earum, animi iure, officiis ut dignissimos ea itaque obcaecati quis veniam odio? Ea ducimus aliquam, nemo quidem eaque necessitatibus iusto tempore culpa similique modi? Doloremque voluptates hic debitis quos eius, quam aut eligendi voluptatem est nostrum cupiditate aliquid? Eius, veritatis! Dolorem quas mollitia ratione consequatur tenetur doloribus reiciendis repudiandae temporibus sequi cum assumenda commodi nobis, ab ducimus amet deleniti fugit voluptate modi praesentium? Facilis porro praesentium ullam, maiores eum excepturi officia incidunt aspernatur nostrum perferendis ipsum ipsam, pariatur velit harum ea ratione fugiat itaque libero ab autem dolorem modi non provident. Harum odit facere quasi tempora ea enim numquam doloremque molestias ipsa est id error, nemo culpa quos similique officia, quo sunt eum quia. Repellat maiores est alias dolorum provident tempora reiciendis ipsam, quaerat ut? Illum alias itaque labore id blanditiis eos enim minus, reiciendis repudiandae amet quam similique in facilis consequatur. Eligendi, enim voluptatum dicta eos suscipit praesentium a quisquam officiis obcaecati dignissimos facilis aliquam amet? Iusto temporibus nesciunt at nihil quidem debitis, suscipit, magni ipsum quam cumque ad reiciendis repellendus vel vero obcaecati! Voluptatem rerum obcaecati iusto exercitationem fugit placeat iste excepturi hic. Harum aperiam laudantium beatae facere pariatur necessitatibus dolores quidem expedita nesciunt unde voluptatem, laborum blanditiis vitae doloremque ipsam, fugiat commodi ipsa alias sequi, iste nostrum deserunt in ullam. Qui, dolor tempore dolore tempora assumenda fugiat, voluptates quidem provident consequatur eveniet deleniti sint. Quibusdam dolore illo est quam officiis aperiam aut aspernatur vero consequatur odit cumque minima nemo, similique voluptatum labore expedita unde recusandae dolor itaque ex ratione consequuntur? Vel illum optio corrupti suscipit ducimus pariatur obcaecati non provident dolore, officiis ratione distinctio, voluptatibus accusamus! Porro sed alias iure at neque odit. Deleniti sequi inventore voluptas cum perferendis hic ut, quos, officia ex tempora ullam odit? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore sed itaque magnam repellat obcaecati eius ullam, rem earum quasi veritatis excepturi minima ab corporis ipsa, repellendus eligendi quaerat provident vitae? Ullam tempora laborum pariatur minima dignissimos nihil soluta quasi facilis!</p>
+    <form action="" method ="post">
+        <input type="checkbox" name="rule" value ="yes" id="rule">
+        <label for="rule">Agree</label><br>
+        <input type="submit" value="Đồng ý">
+    </form>
+</body>
+</html>

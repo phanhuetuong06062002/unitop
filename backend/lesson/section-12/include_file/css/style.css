@@ -1,0 +1,15 @@
+#wrapper{
+    margin:0px auto;
+    width: 960px;
+}
+#header,#footer{
+    background-color:grey;
+    text-align: center;
+    font-size: 50px;
+    min-height: 100px;
+}
+#content{
+    min-height: 300px;
+    text-align: center;
+    font-size: 100px;
+}

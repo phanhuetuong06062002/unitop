@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constructor</title>
+</head>
+<body>
+    <script>
+        var User = function(firstName,lastName,avatar){
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.avatar = avatar;
+        }
+        User.prototype.class = 'F8';
+        User.prototype.getClass = function(){
+            return this.class;
+        }
+        var user = new User('Sơn','Đặng','avatar1');
+        var user2 = new User('Vũ','Huyền','avatar2');
+        console.log(user.class);
+        console.log(user.getClass());
+        console.log(user2);
+    </script>
+</body>
+</html>

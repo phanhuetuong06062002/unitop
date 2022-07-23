@@ -1,0 +1,62 @@
+ body {
+     background-color: #7ad4e3;
+ }
+
+ #wrapper {
+     margin: 200px auto;
+     width: 300px;
+     padding: 20px 11px 30px 0px;
+     background-color: yellow;
+ }
+
+ input {
+     border: none;
+     padding: 5px 20px;
+     border-radius: 5px;
+ }
+
+ input::placeholder {
+     text-align: center;
+     font-style: italic;
+ }
+
+ label,
+ input {
+     display: block;
+     margin-top: 10px;
+     margin-left: 43px;
+     padding-right: 50px;
+ }
+
+ form h1 {
+     text-align: center;
+ }
+
+ input[type^="check"],
+ label[for^="remember"] {
+     display: inline-block;
+ }
+
+ #wrapper>form>label:nth-child(7) {
+     margin-left: -5px;
+ }
+
+ input[type="submit"] {
+     display: block;
+     width: 240px;
+     text-align: center;
+     padding-left:40px;
+ }
+
+
+ a {
+     margin-left: 100px;
+ }
+
+ p.error {
+     margin-left: 55px;
+     font-size: 14px;
+     font-style: italic;
+     color: red;
+ }
+

@@ -1,0 +1,54 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+#wrapper{
+    width:960px;
+    margin:0px auto;
+}
+
+#header,#footer{
+    background:grey;
+    min-height: 50px;
+    text-align: center;
+}
+#header-red{
+    background-color:red;
+    text-align: center;
+    min-height: 50px;
+}
+#header-yellow {
+    background-color: yellow;
+    text-align: center;
+    min-height: 50px;
+}
+ul#main-menu{
+    list-style:none;
+}
+li{
+    display:inline-block;
+    margin-top:10px;
+}
+ul li a{
+    text-decoration: none;
+    padding:0px 20px;
+    font-size: 20px;
+    color:black;
+}
+#footer{
+    font-size: 20px;
+    margin: auto 0px;
+}
+#content{
+    min-height:500px;
+}
+.clear-fix{
+    clear:both;
+}
+i{
+    float:left;
+}
+.pagging{
+    float:right;
+}
+

@@ -1,0 +1,54 @@
+.clear-both {
+    clear: both;
+}
+
+#header {
+    background-color: orange;
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+}
+
+#header>a {
+    float: left;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+#header a #header ul {
+    list-style: none;
+}
+
+#header ul li {
+    display: inline-block;
+}
+
+#header ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+#wp-content {
+    min-height: 700px;
+}
+
+#footer {
+    background-color: yellow;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+#header>p {
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    font-size: 15px;
+}
+
+#header.header-product{
+    background-color: rgb(24, 219, 40);
+}

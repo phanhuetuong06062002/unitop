@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^([a-zA-z0-9-]+)-([0-9]+).html$ index.php?mod=page&controller=index&action=detail&id=$2&slug=$1
+RewriteRule ^san-pham/([a-zA-z0-9-]+)-([0-9]+).html$ index.php?mod=product&controller=index&action=index&cat_id=$2

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+</head>
+<body>
+    <script>
+        var emailKey = 'email';
+        var myObject = {
+            name: 'Trường',
+            old: 20,
+            'number-phone':0702619754,
+            [emailKey]: 'truongvshieu01@gmail.com',
+            getName : function name(){
+                return this.name;
+            }
+        }
+        var number_phone = 'number-phone';
+        myObject['school'] = 'FPT university'
+        console.log(myObject);
+        console.log(myObject.name);
+        console.log(myObject[number_phone]);
+        console.log(myObject.getName())
+        delete myObject.email;
+        console.log(myObject);
+
+    </script>
+</body>
+</html>
